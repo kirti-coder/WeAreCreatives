@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+}
+
+body{
+ margin: 0;
+ padding: 0;
+}
+
+.container{
+    height:auto;
+    width: 997px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #3DBEFF;
+    height: 94px;
+    display: flex;
+}
+
+.textLOGO_on_the_left{
+    margin-left: 20px;
+    margin-top: 27px;
+    color: white;
+    width: 50%;
+}
+
+.right_nav{
+    margin-left: 200px;
+    width: 50%;
+    margin-top: 36px;
+    color: white;
+    font-size: 17px;
+}
+
+.right_nav nav ul{
+    display: flex;
+    float: right;
+}
+
+li{
+    list-style-type: none;
+}
+
+.right_nav nav ul li{
+    padding-right: 33px;
+    
+}
+
+.linkList li:hover{
+    background-color:white;
+    color: black;
+    border-radius: 10px;
+    text-transform:uppercase; 
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.image-header{ 
+        position: relative;
+        height: 477px;
+        width: 997px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.img-text{
+        position: absolute;
+        top: 56px;
+        left: 322px;
+        font-size: 37px;
+        /* font-family: ui-sans-serif; */
+        font-weight: bold;
+        color: white;
+}
+.down-arrow{
+    border-left: 4px solid white;
+    height: 92px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+}
+.down{
+    border: solid #fbfbfb;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+    top: 86%;
+    left: -61%;
+    transform: rotate(45deg);
+}
+
+.First-motto{
+    display: flex;
+    height: 350px;
+}
+
+.motto{
+    width: 50%;
+    height: 350px;
+}
+
+.images{
+    width: 50%;
+    height: 350px;
+}
+.small-heading{
+    padding-top: 68px;
+    padding-bottom: 19px;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bolder;
+}
+.details{
+    text-align: center;
+    padding-left: 23px;
+    padding-right: 26px;
+    padding-bottom: 17px;
+}
+a.learnMore{
+    padding-left: 195px;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration-thickness: 0.3em;
+}
+.second-motto{
+    display: flex;
+}
+
+.Texts-on-images{
+    display: flex;
+    width: 100%;
+    z-index: -1;
+}
+.images-details{
+    width: 50%;
+    height: 550px;
+    position: relative;
+
+}
+.property{
+    position: absolute;
+    top: 72%; 
+}
+
+.small-heading-details{
+     padding-left: 136px;
+    padding-bottom: 15px;
+    font-family: monospace;
+}
+.details-on-image{
+    padding-left: 73px;
+    padding-right: 54px;
+    font-size: 16px;
+}
+
+.client-testim-section{
+width: 100%;
+height: 501px;
+}
+.client-testim-heading{
+    width: 100%;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 79px;
+    margin-bottom: 79px;
+    color: grey;
+}
+.client-comment{
+    width: 33%;
+    height: 300px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.img-design{
+    width: 94px;
+    height: 94px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.allclients{
+    display:flex;
+}
+.client-name{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.client-designation {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: grey;
+}
+.client-comment-para{
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: 37px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.gallery{
+    display: flex;
+    width: 100%;
+    height: 350px;
+}
+.gall-img{
+    width: 25%;
+    height: 350px;
+}
+footer{
+    width: 100%;
+    height: 214px;
+    background-color: #81d6ca;
+}
+
+.textLOGO_on_the_bottom{
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 18px;
+    color: green;
+}
+
+.bottom-nav-list nav ul{
+    text-align: center;
+    color: green;
+    padding: 0;
+}
+.bottom-nav-list nav ul li{
+   display: inline;
+    padding: 13px;;
+    font-family: monospace;
+}
+
+.social-media nav ul {
+   text-align: center;
+}
+.social-media nav ul li{
+    width: 20px;
+    display: inline-block;
+    padding: 30px;
+}
